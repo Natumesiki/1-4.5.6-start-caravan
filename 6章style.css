@@ -46,9 +46,9 @@ background-position:center;
 .main-visual-content {
   width:40%;/*横幅40%*/
   height:300px;/*親の高さに揃える*/
-  background-color:rgba(0,0,0,0.5);
-  text-align:center;
-  padding-top:105px;
+  background-color:rgba(0,0,0,0.5);/*背景を黒の半透明にする*/
+  text-align:center;/*文字を中央揃えにする*/
+  padding-top:105px;/*上側の内側余白で垂直方向の位置を調整*/
 }
 
 
@@ -80,24 +80,36 @@ main {
   border-bottom: 8px solid #f7f7f7;
   text-align: center;
   line-height:0.6;
+  
+}
+
+.blog-box{
+  padding-top:50px;
 }
 
 .blog-item{
   padding-bottom:20px;
   margin-bottom:20px;
   border-bottom:1px solid #f7f7f7;
-  display:flex;
+  display: flex;
   justify-content:flex-start;
 }
 .blog-image{
   /*width:180px;*/
-  heigth:180px
+  height:180px
   
 }
 
 .blog-text {
-  
+  /*padding-top:25px;
+  padding-left:30px;*/
+  padding:25px 0 0 30px;
 }
+
+.blog-text-heading{
+  padding-bottom: 15px;
+}
+
 .blog-date{
   font-size:12px;
   display: inline-block;
